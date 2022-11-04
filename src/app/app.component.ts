@@ -7,10 +7,19 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
-  //uc2
+  //uc3
   title = 'Hello World';
+  imageUrl ='../assets/logo.png'
+  url="https://www.bridgelabz.com/";
+
   ngOnInit(){
     this.title="Hello World from BridgeLabz"
     }
+
+    onClick($event:any) {
+      console.log("Image has been clicked ! ", $event);
+      window.open(this.url, "_blank");
+    }
+
   }
 
