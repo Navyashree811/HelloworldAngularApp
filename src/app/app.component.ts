@@ -7,12 +7,13 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
-  //uc3
+  //uc4
   title = 'Hello World';
   imageUrl ='../assets/logo.png'
   url="https://www.bridgelabz.com/";
+  userName:String = "";
 
-  ngOnInit(){
+  ngOnInit(): void{
     this.title="Hello World from BridgeLabz"
     }
 
